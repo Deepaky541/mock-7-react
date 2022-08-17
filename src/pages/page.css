@@ -1,0 +1,53 @@
+
+.main{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,max-content));
+    gap: 50px;
+    padding: 60px;
+}
+.home{
+    display: flex;
+    margin-bottom:30px ;
+    justify-content: space-around;
+    font-size: x-large;
+    text-decoration: none;
+}
+.lnk{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+}
+img{
+    width: 80%;
+    padding-top: 30px;
+}
+p{
+    font-size: large;
+    font-weight: bolder;
+}
+.second p{
+    font-size: small !important;
+}
+.second{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom:30px ;
+}
+.card{
+    background-color: white;
+    box-shadow: 2px 5px 10px rgb(172, 166, 166);
+    height: 450px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    border:none;
+    background-color: green;
+    padding: 20px;
+    margin: 60px;
+}
